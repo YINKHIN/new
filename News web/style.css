@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.khmer24 {
+  width: 100%;
+  height: 90px;
+  /* top: 0; */
+  float: left;
+  /* background-color: rgb(255, 0, 0); */
+  box-shadow: 3px 0px 3px 0px rgb(144, 144, 144);
+}
+.khmer24 .kon-khmer {
+  width: 75%;
+  height: 90px;
+  /* background-color: aqua; */
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.kon-khmer .kon1 {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+.kon1 .pic-head {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 25px;
+  margin-left: 2px;
+}
+.pic-head img {
+  font-size: 10px;
+}
+
+.kon-khmer .kon2 {
+  width: 48%;
+  height: 100%;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(3, 3, 22); */
+}
+.kon2 label section {
+  font-size: 20px;
+  height: 80%;
+  width: 100%;
+  margin-left: 10px;
+  font-family: "Battambang";
+}
+
+.kon2 option {
+  font-size: 20px;
+  font-family: "Battambang";
+  margin: 10px;
+}
+
+.kon2 input {
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Battambang";
+}
+.kon-khmer .kon3 {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: blue; */
+}
+.kon3 .kon-box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.kon-box1 h3 {
+  color: rgb(30, 1, 255);
+  margin-top: 30px;
+  margin: 10px 10px;
+  margin-top: 30px;
+  font-family: "Battambang";
+}
+.kon-box1 p {
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+  margin: 10px 10px;
+  margin-top: 30px;
+  font-family: "Battambang";
+}
+
+.kon3 .kon-box1 .doc {
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: rgb(238, 167, 0);
+  margin-left: 10px;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+}
+.doc h6 {
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-top: 45px;
+  font-family: "Battambang";
+  font-size: 20px;
+  opacity: 0.8;
+}
+.doc h6:hover {
+  opacity: 1;
+}
+.khmer24 .body-box {
+  width: 75%;
+  height: 320px;
+  /* background-color: red; */
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.khmer24 .body-box .body-box-1 {
+  width: 95%;
+  height: 90%;
+  background-color: blue;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+.body-box-1 .body-khin {
+  width: 100%;
+  height: 100%;
+}
+.body-khin img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
